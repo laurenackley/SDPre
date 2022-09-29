@@ -11,7 +11,7 @@ public class Objective7Lab5 {
       System.out.println("2: List My favorite foods");
       System.out.println("3: Exit");
 
-selection = scanner.nextInt();
+      selection = scanner.nextInt();
 
       if(selection == 1) {
         System.out.println("Hello Human");
