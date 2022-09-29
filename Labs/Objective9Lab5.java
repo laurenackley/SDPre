@@ -50,6 +50,7 @@ public class Objective9Lab5 {
         kb.close();
         }
         public static void printMenu() {
+          System.out.println();
           System.out.println("========= MENU =========");
           System.out.println("|                      |");
           System.out.println("|   1. Add Numbers     |");
@@ -58,6 +59,7 @@ public class Objective9Lab5 {
           System.out.println("|   4. Exit            |");
 		      System.out.println("|                      |");
 		      System.out.println("========================");
+          System.out.println();
         }
 
         public static double findSum(double num1, double num2) {
@@ -71,8 +73,9 @@ public class Objective9Lab5 {
         }
 
         public static double calcTax (double num1, double num2) {
-          double taxRate = 8.31;
-          double calcTax = ((num1+num2)/taxRate);
+          double taxRate = .0831;
+          double total = (num1+num2);
+          double calcTax = (total*taxRate);
           return calcTax;
         }
 }
