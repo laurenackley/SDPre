@@ -7,7 +7,7 @@ public class Objective9Lab4 {
 
     System.out.print("Please give me a number: ");
         num1 = kb.nextDouble();
-        System.out.print("please give me another number: ");
+        System.out.print("Please give me another number: ");
         num2 = kb.nextDouble();
 
     double average = findAverage(num1, num2);
